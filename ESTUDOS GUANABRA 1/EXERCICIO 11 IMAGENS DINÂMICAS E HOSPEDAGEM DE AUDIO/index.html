@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MÍdias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas </h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/ftpequena.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/ftmedia.png" type="image/png"> 
+        <img src="imagens/ftgrande.png" alt="imagem flexível">   
+    </picture>
+    <h1>reproduzindo áudios em HTML5</h1>
+    <p>vamos aprender a reproduzir áudios autoplay</p>
+    <audio src="audio/Blue Boi.mp3" controls autoplay></audio>
+    <!--podemos colocar um audio assim tbm que é mais completo.
+    -->
+    <p>
+    <audio preload="auto"autoplay controls loop>
+    <source src="audio/Blue Boi.mp3" type="audio/mpeg">
+    <source src="audio/Blue Boi.mp3" type="audio/ogg">
+    <source src="audio/Blue Boi.mp3" type="audio/wav">
+    <a href="audio/Blue Boi.mp3" download="audio/Blue Boi.mp3" type="application/mp3">
+        <p>infelizmente seu navegador não consegue reproduzir áudio.
+    </a>
+    </audio>
+   
+</audio>
+</body>
+</html>
