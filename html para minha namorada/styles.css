@@ -1,0 +1,69 @@
+/* styles.css */
+
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Degradê suave em tons de rosa e laranja */
+    font-family: 'Lobster', cursive; /* Fonte que reflete amor */
+    color: #fff; /* Texto branco para contraste */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    margin: 40px 0; /* Aumenta a margem superior e inferior do cabeçalho */
+}
+
+h1 {
+    font-size: 4em; /* Aumenta o tamanho da fonte do título */
+    background: linear-gradient(to right, #f06, #f79); /* Degradê no título */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+h2 {
+    color: #ff6f61; /* Tom complementar ao fundo, um rosa mais intenso */
+    font-size: 2.5em; /* Aumenta o tamanho da fonte dos subtítulos */
+    margin-top: 30px;
+    border-bottom: 3px solid #ff6f61;
+}
+
+p {
+    color: #fff;
+    font-size: 1.5em; /* Aumenta o tamanho da fonte dos parágrafos */
+    line-height: 1.8;
+    margin: 30px auto;
+    width: 70%;
+}
+
+.photo {
+    width: 60%; /* Reduz o tamanho das fotos */
+    border-radius: 10px;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.proposal-button {
+    display: block;
+    width: 300px;
+    margin: 40px auto; /* Aumenta a margem superior e inferior do botão */
+    padding: 20px;
+    background: linear-gradient(to right, #ff6f61, #f06); /* Degradê no botão */
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.5em; /* Aumenta o tamanho da fonte do botão */
+    cursor: pointer;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.proposal-button:hover {
+    background: linear-gradient(to right, #f06, #ff6f61); /* Degradê invertido ao passar o mouse */
+}
