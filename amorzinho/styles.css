@@ -19,8 +19,8 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 .highlight {
@@ -44,7 +44,7 @@ p {
 
 .photo {
     width: 60%; /* Reduz o tamanho das fotos */
-    border-radius: 10px;
+    border-radius: 5px;
     margin: 20px auto;
     display: block;
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
@@ -70,3 +70,100 @@ p {
 strong{
     color: #850b48;
 }
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: #c75c04;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    
+}
+a {
+    text-decoration: none;
+    color: #ff0800;
+}
+a:hover {
+    background-color:#bd2f899f ;
+    color:#e6e6fa ;
+    border-radius: 5px;
+    box-shadow:0px 6px 12px rgba(0, 0, 0, 0.2) ;
+
+}
+.cont {
+    position: relative;
+    display: inline-block;
+}
+
+.numero {
+    visibility: hidden;
+    opacity: 0;
+    background-color: #d333;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 100%; /* Posição acima do botão */
+    left: 50%;
+    transform: translateX(-50%);
+    transition: visibility 0.3s, opacity 0.3s;
+    white-space: nowrap; /* Evita quebra de linha */
+}
+
+.cont:hover .numero {
+    visibility: visible;
+    opacity: 1;
+}
+
+.b {
+    background-color: #1d016b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+h5{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;   
+}
+
+#nao:hover {
+    position: absolute;
+}
+#nao{
+    background-color: red;
+    border-radius:5px;
+    margin-left: 900px;
+}
+#sim {
+    background-color: green;
+    border-radius:5px;
+    margin-left: 900px;
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,13 @@
+<button class="proposal-button"><a href="https://shopee.com.br/list/Vestido/Casamento%20Civil/Branco" target="_blank">Quer casar comigo?</a></button>
+const botaoSim = document.getElementById('sim');
+const botaoNao = document.getElementById('nao');
+
+botaoNao.addEventListener('mouseover', () => {
+    botaoNao.style.left = `${Math.random() * window.innerWidth - botaoNao.offsetWidth}px`;
+    botaoNao.style.top = `${Math.random() * window.innerHeight - botaoNao.offsetHeight}px`;
+});
+
+botaoSim.addEventListener('click', () => {
+    alert('Você fez uma boa escolha!');
+});
+ <img src="fotos/amor1.jpg" alt="Stephany sorrindo" class="photo">
