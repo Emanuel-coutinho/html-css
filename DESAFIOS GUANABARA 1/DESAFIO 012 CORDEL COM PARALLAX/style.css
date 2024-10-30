@@ -5,51 +5,68 @@
 }
 
 body {
-    background-color: white;
+    background-color: darkgray;
+    min-height: 100vh;
 
 }
+
 header {
     background-color: black;
     height: 200px;
-    margin-bottom: 20px;
+   
 }
+
 header h1{
     padding-top: 80px;
     font-size: 4em;
     color: white;
     text-align: center;
     height: 70px;
-    text-shadow: 2 px 2px 0px rgb(0, 0, 0) ;
-    
-    
+    font-variant: small-caps;
+    text-shadow: 2px 2px 0px rgb(0, 0, 0) ;
+      
 }
 header p{
     text-align: center;
     color: white;
-    font-size: 1.5em;
-    
-    
-    
+    font-size: 1.3em;
+   
 }
 
-
-nav a {
+header a {
     text-decoration: none;
     color: white;
-   
-    
+    font-weight: bolder;
+     
 }
-nav a:hover {
+header a:hover {
     text-decoration: underline;
 }
-
-main p{
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+section p {
     line-height: 2em;
-    font-size: 2em;
+    font-size: 1.3em;
     font-weight: bold;
     max-width: 350px;
     text-align: left;
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
     
+}
+section.img p{
+    background-color: black;
+    width: 400px;
+}
+.normal{
+    background-color: white;
+    color: black;
+}
+.img{
+    background-color: rgb(24, 24, 24);
+    color: white;
 
 }
 footer{
@@ -65,6 +82,7 @@ footer{
 footer a {
     text-decoration: none;
     color: white;
+    font-weight: bolder;
 }
 footer a:hover{
     text-decoration: underline;
