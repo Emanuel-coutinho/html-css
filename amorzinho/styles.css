@@ -43,7 +43,7 @@ p {
 }
 
 .photo {
-    width: 60%; /* Reduz o tamanho das fotos */
+    width: 400px; /* Reduz o tamanho das fotos */
     border-radius: 5px;
     margin: 20px auto;
     display: block;
@@ -56,16 +56,21 @@ p {
     margin: 40px auto; /* Aumenta a margem superior e inferior do botão */
     padding: 20px;
     background: linear-gradient(to right, #ff6f61, #f06); /* Degradê no botão */
-    color: #fff;
+    color: #ebebeb;
     border: none;
     border-radius: 30px;
     font-size: 1.5em; /* Aumenta o tamanho da fonte do botão */
     cursor: pointer;
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
 }
-
+ button a {
+    text-decoration: none;
+    color: #ffffff;
+}
 .proposal-button:hover {
     background: linear-gradient(to right, #f06, #ff6f61); /* Degradê invertido ao passar o mouse */
+    text-decoration: underline;
+    
 }
 strong{
     color: #850b48;
@@ -79,11 +84,18 @@ footer{
     margin-bottom: 10px;
     
 }
-a {
+p a {
     text-decoration: none;
     color: #ff0800;
 }
-a:hover {
+p a:hover{
+    text-decoration: underline;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
     background-color:#bd2f899f ;
     color:#e6e6fa ;
     border-radius: 5px;
@@ -116,7 +128,7 @@ a:hover {
     opacity: 1;
 }
 
-.b {
+button.b {
     background-color: #1d016b;
     color: white;
     padding: 10px 20px;
@@ -141,20 +153,6 @@ button {
     font-size: 16px;
     cursor: pointer;   
 }
-
-#nao:hover {
-    position: absolute;
-}
-#nao{
-    background-color: red;
-    border-radius:5px;
-    margin-left: 900px;
-}
-#sim {
-    background-color: green;
-    border-radius:5px;
-    margin-left: 900px;
-}
 .video-container {
     display: flex;
     justify-content: center;
@@ -166,4 +164,5 @@ video {
     height: auto;
     border-radius: 5px;
 }
+
 
