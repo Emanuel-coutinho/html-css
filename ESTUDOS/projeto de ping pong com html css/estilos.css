@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+}
+
+.fundo {
+    background-color: #3F3F3F;
+    width: 700px;
+    height: 500px;
+}
+
+@keyframes bola {
+    0% {left: 50px; top: 400px;}
+    3.84% {left: 450px; top: 0px;}
+    5.76% {left: 650px; top: 200px;}
+    7.68% {left: 450px; top: 400px;}
+    11.52% {left: 50px; top: 0px;}
+    12% {left: 0px; top: 50px;}
+    15.36% {left: 350px; top: 400px;}
+    18.24% {left: 650px; top: 100px;}
+    19.2% {left: 550px; top: 0px;}
+    23.04% {left: 150px; top: 400px;}
+    24.48% {left: 0px; top: 250px;}
+    26.88% {left: 250px; top: 0px;}
+    30.72% {left: 650px; top: 400px;}
+    34.56% {left: 250px; top: 0px;}
+    36.96% {left: 0px; top: 250px;}
+    38.4% {left: 150px; top: 400px;}
+    42.24% {left: 550px; top: 0px;}
+    43.2% {left: 650px; top: 100px;}
+    46.08% {left: 350px; top: 400px;}
+    49.44% {left: 0px; top: 50px;}
+    49.92% {left: 50px; top: 0px;}
+    53.76% {left: 450px; top: 400px;}
+    55.68% {left: 650px; top: 200px;}
+    57.6% {left: 450px; top: 0px;}
+    61.44% {left: 50px; top: 400px;}
+    61.92% {left: 0px; top: 350px;}
+    65.28% {left: 350px; top: 0px;}
+    68.16% {left: 650px; top: 300px;}
+    69.12% {left: 550px; top: 400px;}
+    72.96% {left: 150px; top: 0px;}
+    74.4% {left: 0px; top: 150px;}
+    76.8% {left: 250px; top: 400px;}
+    80.64% {left: 650px; top: 0px;}
+    84.48% {left: 250px; top: 400px;}
+    86.88% {left: 0px; top: 150px;}
+    88.32% {left: 150px; top: 0px;}
+    92.12% {left: 550px; top: 400px;}
+    93.12% {left: 650px; top: 300px;}
+    96% {left: 350px; top: 0px;}
+    99.36% {left: 0px; top: 350px;}
+    100% {left: 50px; top: 400px;}
+}
+
+@keyframes batedor {
+    0% {left: 0px; top: 450px;}
+    7.68% {left: 400px; top: 450px;}
+    15.36% {left: 300px; top: 450px;}
+    23.04% {left: 100px; top: 450px;}
+    30.72% {left: 550px; top: 450px;}
+    38.4% {left: 100px; top: 450px;}
+    46.08% {left: 300px; top: 450px;}
+    53.76% {left: 400px; top: 450px;}
+    61.44% {left: 0px; top: 450px;}
+    69.12% {left: 550px; top: 450px;}
+    76.8% {left: 200px; top: 450px;}
+    84.48% {left: 200px; top: 450px;}
+    92.12% {left: 550px; top: 450px;}
+    100% {left: 0px; top: 450px;}
+}
+
+.bola {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #FFF;
+    position: absolute;
+    animation-name: bola;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+
+.batedor {
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: #FFF;
+    position: absolute;
+    animation-name: batedor;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}

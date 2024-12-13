@@ -1,0 +1,32 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header {
+    margin-top: 200px;
+    color: #5B8989;
+}
+
+form {
+    text-align: center;
+    background-color: #e0e8d7;
+    width: 400px;
+    margin: auto;
+    
+   
+
+    
+}
+input {
+    font-family:Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+button {
+   width: 50%;
+}
+p {
+    text-align: justify;
+}
+

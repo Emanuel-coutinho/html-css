@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>treino de flexbox</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            display: flex;
+            background-color: rgb(201, 131, 141);
+            flex-flow: row nowrap;
+
+        }
+        .it {
+            flex-basis: 200px;
+            background-color: rgb(182, 182, 46);
+            text-align: center;
+            border: 1px solid black;
+        }
+        #a1 {
+            flex-grow: 1;
+            flex-shrink: 1;
+
+        }
+        #b1 {
+            flex-grow: 2;
+            flex-shrink: 2;
+        }
+        #c1 {
+            flex-grow: 1;
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+            <div class="it" id="a1">A</div>
+            <div class="it" id="b1">B</div>
+            <div class="it" id="c1">C</div>
+    </div>
+    
+</body>
+</html>
